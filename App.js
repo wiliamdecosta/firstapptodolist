@@ -22,7 +22,7 @@ export default function App() {
     if (goalText !== '') {
       setGoalList((currentGoalList) => [...currentGoalList, { text: goalText, id: Math.random().toString() }]);
     } else {
-      alert('Teks tidak boleh kosong');
+      alert('Opps, do not enter empty text.');
     }
   }
 
